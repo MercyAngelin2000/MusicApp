@@ -1,38 +1,93 @@
-.App {
-  text-align: center;
+.app{
+    min-height: 100vh;
+    background-image: url('./assets/download.avif');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card{
+  height: 210px;
+  width: 250px;
+  margin-bottom: 5px;
+  padding: 3px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.card-img-top{
+  height: 110px;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.col_FIELD{
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+}
+.audio_fld{
+  width: 200px;
+  visibility: hidden;
+}
+.buttonTag{
+  background-color: #fe016f !important;
+  color: white !important;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+}
+.svgIcon{
+  color: #fe016f !important;
+}
+.auth_page{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family:Georgia, 'Times New Roman', Times, serif
+}  
+  /* .auth_page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.input_field{
+    width: 450px !important;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.track-list {
+    display: flex;
+    flex-wrap: wrap;
   }
-  to {
-    transform: rotate(360deg);
+  
+  .track-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+    width: 150px;
+    text-align: center;
+    position: relative;
   }
-}
+  
+  .track-card img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .track-card h3 {
+    font-size: 16px;
+    margin: 10px 0 5px;
+  }
+  
+  .track-card p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .track-card button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    cursor: pointer;
+  } */
+  
+  
